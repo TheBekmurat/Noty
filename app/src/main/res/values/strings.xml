@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Noty</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_don_t_have_any_todos">You don\'t have any todos</string>
+    <string name="Title">Title</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  Hint  -->
+    <string name="today">Today</string>
+
+    <!--  Text  -->
+    <string name="remind_me">Remind me</string>
+
+</resources>

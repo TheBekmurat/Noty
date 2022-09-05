@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tendp">10dp</dimen>
+    <dimen name="tensp">10sp</dimen>
+    <dimen name="fifteensp">15sp</dimen>
+    <dimen name="twentysp">20sp</dimen>
+
+    <!--  Heights  -->
+    <dimen name="app_bar_height">280dp</dimen>
+    <dimen name="image_view_clock_height">24dp</dimen>
+
+    <!--  Widths  -->
+    <dimen name="image_view_clock_widths">24dp</dimen>
+    <dimen name="et_calendar_width">150dp</dimen>
+    <dimen name="et_time_width">100dp</dimen>
+
+    <!--  Paddings  -->
+    <dimen name="constraint_padding">30dp</dimen>
+
+    <!--  Margin  -->
+    <dimen name="image_clock_view_margin">80dp</dimen>
+    <dimen name="tv_remind_me_margin">5dp</dimen>
+    <dimen name="fab_send_margin">10dp</dimen>
+    <dimen name="iv_go_back_margin">10dp</dimen>
+    <dimen name="et_title_margin">20dp</dimen>
+    <dimen name="et_calendar_margin">70dp</dimen>
+
+    <!--  Size  -->
+    <dimen name="tv_remind_me_size">20sp</dimen>
+    <dimen name="title_size">14sp</dimen>
+    <dimen name="date_size">12sp</dimen>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#FFFFFF">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/iv_round"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/tendp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/date"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            tools:text="A" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tendp"
+        android:textColor="@color/title"
+        android:textSize="@dimen/title_size"
+        app:layout_constraintStart_toEndOf="@id/iv_round"
+        app:layout_constraintTop_toTopOf="@id/iv_round"
+        app:layout_constraintBottom_toTopOf="@id/tv_date"
+        tools:text="@string/Title" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tendp"
+        android:textColor="@color/date"
+        android:textSize="@dimen/date_size"
+        app:layout_constraintStart_toEndOf="@id/iv_round"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintBottom_toBottomOf="@id/iv_round"
+        tools:text="Mar 25,2022 18:25" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F2F1F4"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
